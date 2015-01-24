@@ -1,0 +1,1 @@
+-e git+https://github.com/astraw/svg_stack#egg=svg_stack-dev
