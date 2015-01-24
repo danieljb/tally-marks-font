@@ -1,0 +1,30 @@
+/*
+  Icon Font: <%= font_name %>
+*/
+
+<%= font_face %>
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+<%= glyph_selectors %> {
+<%= glyph_properties %>
+-webkit-font-feature-settings: "liga";
+-moz-font-feature-settings: "liga=1";
+-moz-font-feature-settings: "liga";
+-ms-font-feature-settings: "liga" 1;
+-o-font-feature-settings: "liga";
+font-feature-settings: "liga";
+}
+
+<%= glyphs %>
+
+<%= css_prefix %> {
+<%= glyph_properties %>
+-webkit-font-feature-settings: "liga";
+-moz-font-feature-settings: "liga=1";
+-moz-font-feature-settings: "liga";
+-ms-font-feature-settings: "liga" 1;
+-o-font-feature-settings: "liga";
+font-feature-settings: "liga";
+}
