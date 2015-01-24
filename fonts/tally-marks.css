@@ -1,0 +1,80 @@
+/*
+  Icon Font: tally-marks
+*/
+
+@font-face {
+  font-family: "tally-marks";
+  src: url("./tally-marks.eot");
+  src: url("./tally-marks.eot?#iefix") format("embedded-opentype"),
+       url("./tally-marks.woff") format("woff"),
+       url("./tally-marks.ttf") format("truetype"),
+       url("./tally-marks.svg#tally-marks") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "tally-marks";
+    src: url("./tally-marks.svg#tally-marks") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.mark-1:before,
+.mark-2:before,
+.mark-3:before,
+.mark-4:before,
+.mark-5:before,
+.mark-blank:before,
+.mark-cross:before {
+  display: inline-block;
+  font-family: "tally-marks";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+-webkit-font-feature-settings: "liga";
+-moz-font-feature-settings: "liga=1";
+-moz-font-feature-settings: "liga";
+-ms-font-feature-settings: "liga" 1;
+-o-font-feature-settings: "liga";
+font-feature-settings: "liga";
+}
+
+.mark-1:before { content: "\f100"; }
+.mark-2:before { content: "\f101"; }
+.mark-3:before { content: "\f102"; }
+.mark-4:before { content: "\f103"; }
+.mark-5:before { content: "\f104"; }
+.mark-blank:before { content: "\f105"; }
+.mark-cross:before { content: "\f106"; }
+
+.mark- {
+  display: inline-block;
+  font-family: "tally-marks";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+-webkit-font-feature-settings: "liga";
+-moz-font-feature-settings: "liga=1";
+-moz-font-feature-settings: "liga";
+-ms-font-feature-settings: "liga" 1;
+-o-font-feature-settings: "liga";
+font-feature-settings: "liga";
+}
