@@ -24,10 +24,20 @@
 
 [data-icon]:before,
 .mark-1:before,
+.mark-10:before,
+.mark-11:before,
+.mark-12:before,
+.mark-13:before,
+.mark-14:before,
+.mark-15:before,
 .mark-2:before,
 .mark-3:before,
 .mark-4:before,
 .mark-5:before,
+.mark-6:before,
+.mark-7:before,
+.mark-8:before,
+.mark-9:before,
 .mark-blank:before,
 .mark-cross:before {
   display: inline-block;
@@ -51,10 +61,20 @@ font-feature-settings: "liga";
 }
 
 .mark-1:before { content: "\f100"; }
+.mark-10:before { content: "\f136"; }
+.mark-11:before { content: "\f137"; }
+.mark-12:before { content: "\f138"; }
+.mark-13:before { content: "\f139"; }
+.mark-14:before { content: "\f13a"; }
+.mark-15:before { content: "\f13b"; }
 .mark-2:before { content: "\f101"; }
 .mark-3:before { content: "\f102"; }
 .mark-4:before { content: "\f103"; }
 .mark-5:before { content: "\f104"; }
+.mark-6:before { content: "\f130"; }
+.mark-7:before { content: "\f131"; }
+.mark-8:before { content: "\f132"; }
+.mark-9:before { content: "\f133"; }
 .mark-blank:before { content: "\f105"; }
 .mark-cross:before { content: "\f106"; }
 
